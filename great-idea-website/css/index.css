@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Poor Story', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -85,11 +85,9 @@ footer{
 address{
 	line-height: 2;
 }
-.container {
-	position: relative;
-}
+
 .container header {
-	position: fixed;
+	position: relative;
 	margin-bottom: 45px;
 }
 
@@ -98,8 +96,9 @@ address{
 	margin-top: 30px;
 }
 
-.logo{
+.container header img {
 	position: absolute;
+	display: inline-block;
 	right: 0;
 	top: 15px;
 }
@@ -144,5 +143,3 @@ header nav a {
 	display: inline-block;
 	width: 33%;
 }
-
-
