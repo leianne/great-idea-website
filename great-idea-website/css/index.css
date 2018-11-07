@@ -64,3 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h1{
+	font-size: 80px;
+}
+
+h3{
+	margin-top: 30px;
+}
+
+hr{
+	margin-top: 50px;
+}
+
+footer{
+	text-align: center;
+	padding: 70px 100px;
+}
+
+address{
+	line-height: 2;
+}
+.container {
+	position: relative;
+}
+.container header {
+	position: fixed;
+	margin-bottom: 45px;
+}
+
+.container header nav{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.logo{
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+header nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: gray;
+	font-weight: 200;
+}
+.container{
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.main {
+	text-align: center;
+} 
+
+.half {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+
+}
+
+.main_btn{
+	border: 2px solid black;
+	padding: 3px 40px;
+	text-decoration: none;
+	color: black;
+}
+
+.sec1{
+	margin: 30px 0 30px;
+}
+
+.sec2{
+	margin: 30px 0 30px;
+}
+.third{
+	display: inline-block;
+	width: 33%;
+}
+
+
